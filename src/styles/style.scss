@@ -1,2 +1,164 @@
-@import "../vendor/owl.carousel.min.css";
+@import "fonts";
+@import "owl.carousel.min";
+
+$medium: 'CeraPro-Medium', sans-serif;
+$bold: 'CeraPro-Bold', sans-serif;
+
+* {
+	padding: 0;
+	margin: 0;
+	outline: none;
+}
+
+
+body {
+	background: url('../images/bg.jpg') no-repeat 50% 0;
+	font-family: 'CeraPro-Regular', sans-serif;
+	min-width: 1180px;
+	overflow: auto;
+}
+
+.wrapper {
+	overflow: hidden;
+	max-width: 1160px;
+	margin: 0 auto;
+}
+.header {
+	padding: 18px 0 50px;
+	.btn {
+		border: 2px solid #5489c3;
+		width: 195px;
+		height: 55px;
+		font: 16px/55px 'CeraPro-Bold';
+		text-align: center;
+		border-radius: 30px;
+		float: right;
+		color: #fff;
+		text-decoration: none;
+		display: block;
+	}
+	.logo {
+		margin: 12px 0 0;
+		display: block;
+		float: left;
+	}
+	.menu {
+		float: right;
+		margin-right: 45px;
+		li {
+			padding: 20px 26px 0;
+			float: left;
+			list-style: none;
+			a {
+				font: 16px/1 $bold;
+				color: #fff;
+				text-decoration: none;
+			}
+		}
+	}
+	.owl-carousel {
+		clear: both;
+		padding: 107px 0 0;
+		max-width: 750px;
+		margin: 0 auto;
+		color: #fff;
+		text-align: center;
+		.text {
+			height: 463px;
+			overflow: hidden;
+			padding-bottom: 20px;
+			h1 {
+				letter-spacing: 2.8px;
+				line-height: 1.5;
+				padding-bottom: 45px;
+			}
+			p {
+				font: 24px/1.5 $medium;
+				padding-bottom: 48px;
+			}
+			.more {
+				display: block;
+				margin: 0 auto;
+				border-radius: 30px;
+				width: 180px;
+				height: 60px;
+				background: #e70067;
+				text-decoration: none;
+				color: #fff;
+				text-align: center;
+				font: 16px/60px $medium;
+			}
+		}
+		.owl-dots {
+			border: 1px solid #5489c3;
+			display: inline-block;
+			padding: 0 11px;
+			height: 16px;
+			border-radius: 8px;
+			.owl-dot {
+				height: 16px;
+				display: inline-block;
+				margin: 0 4px;
+				span {
+					display: block;
+					width: 16px;
+					height: 1px;
+					background: #5489c3;
+				}
+			}
+			.active {
+				span {
+					background: #fafbfd;
+				}
+			}
+		}
+	}
+}
+.diary {
+	width: 970px;
+	margin: 0 auto;
+	padding: 140px 0 0;
+	.img {
+		float: left;
+        margin-left: 30px;
+	}
+	.text {
+		margin: 90px 0 0 400px;
+		color: #60759d;
+		font-size: 16px;
+		line-height: 1.5;
+		h2 {
+			font: 36px/1 $bold;
+            padding-bottom: 30px;
+		}
+        p {
+            margin-left: 10px;
+        }
+		ul {
+            margin: 15px 70px 0 20px;
+			letter-spacing: 0.2px;
+			li {
+				color: #16afe0;
+				list-style: disc;
+                padding-bottom: 17px;
+				span {
+					color: #60759d;
+                    font-family: $medium;
+				}
+			}
+		}
+		.btn {
+			display: inline-block;
+			margin: 17px 5px;
+            padding: 0 35px;
+			border-radius: 30px;
+			height: 60px;
+			background: #e70067;
+			text-decoration: none;
+			color: #fff;
+			text-align: center;
+			font: 16px/60px $medium;
+		}
+	}
+}
 
