@@ -37,6 +37,9 @@ body {
 		text-decoration: none;
 		display: block;
 	}
+	.btn:hover {
+		background: #5489c3;
+	}
 	.logo {
 		margin: 12px 0 0;
 		display: block;
@@ -87,6 +90,9 @@ body {
 				color: #fff;
 				text-align: center;
 				font: 16px/60px $medium;
+			}
+			.more:hover {
+				background: #c9005a;
 			}
 		}
 		.owl-dots {
@@ -158,6 +164,9 @@ body {
 			color: #fff;
 			text-align: center;
 			font: 16px/60px $medium;
+		}
+		.btn:hover {
+			background: #c9005a;
 		}
 	}
 }
