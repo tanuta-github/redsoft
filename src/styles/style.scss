@@ -14,7 +14,6 @@ $bold: 'CeraPro-Bold', sans-serif;
 body {
 	background: url('../images/bg.jpg') no-repeat 50% 0;
 	font-family: 'CeraPro-Regular', sans-serif;
-	min-width: 1180px;
 	overflow: auto;
 }
 
@@ -74,6 +73,7 @@ body {
 				letter-spacing: 2.8px;
 				line-height: 1.5;
 				padding-bottom: 45px;
+				font-size: 32px;
 			}
 			p {
 				font: 24px/1.5 $medium;
@@ -121,7 +121,7 @@ body {
 	}
 }
 .diary {
-	width: 970px;
+	max-width: 970px;
 	margin: 0 auto;
 	padding: 140px 0 0;
 	.img {
@@ -170,4 +170,6 @@ body {
 		}
 	}
 }
+
+@import "adaptive";
 

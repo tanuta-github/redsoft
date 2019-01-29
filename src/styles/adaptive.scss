@@ -1,0 +1,133 @@
+@media (max-width: 1180px) {
+  .wrapper {
+    padding: 0 15px;
+  }
+  .header .menu {
+    margin-right: 15px;
+  }
+}
+@media (max-width: 1010px) {
+    .header .menu li {
+      padding: 20px 10px 0;
+    }
+}
+@media (max-width: 890px) {
+  .header .btn {
+    margin-right: 70px;
+  }
+  .menu_icon {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    cursor: pointer;
+  }
+  .menu_icon span {
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    margin-bottom: 5px;
+    display: block;
+  }
+  .menu {
+    position: absolute;
+    z-index: 50;
+    top: 90px;
+    right: 5px;
+    width: 200px;
+    border-radius: 15px;
+    background: #307ac1;
+    border: 2px solid #5489c3;
+    padding: 5px 0;
+    display: none;
+  }
+  .header .menu li {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+  .header .menu li a {
+    display: block;
+    padding: 15px;
+  }
+  .header .menu li:hover {
+    background: #5489c3;
+  }
+  .diary .img {
+    width: 200px;
+  }
+  .diary .text {
+    margin: 50px 0 0 250px;
+  }
+}
+@media (max-width: 700px) {
+  .diary {
+    padding-top: 70px;
+  }
+  .diary .img {
+    width: 150px;
+  }
+  .diary .text {
+    margin-left: 200px;
+  }
+  .diary .text h2 {
+    font-size: 25px;
+  }
+  .diary .text ul li {
+    padding-bottom: 8px;
+  }
+
+  .header .owl-carousel .text h1 {
+    font-size: 20px;
+  }
+  .header .owl-carousel .text p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 520px) {
+   .header {
+     padding-top: 7px;
+   }
+   .header .top {
+     width: 300px;
+     margin: 0 auto;
+     position: relative;
+     text-align: center;
+   }
+  .header .btn {
+    margin-top: 25px;
+    margin-right: 0;
+    float: none;
+    display: inline-block;
+  }
+  .header .owl-carousel {
+    padding-top: 55px;
+  }
+  .header .owl-carousel .text {
+    height: 430px;
+  }
+  .menu {
+    top: 60px;
+    right: 0;
+  }
+  .menu_icon {
+    top: 25px;
+    right: 15px;
+  }
+  .diary .img {
+    width: 150px;
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+  .diary .text {
+    margin: 0 auto;
+  }
+  .diary .text ul {
+    margin: 7px 20px 0 20px;
+  }
+  .diary .text ul li span {
+    font-size: 15px;
+    line-height: 1;
+  }
+
+}

@@ -1,1 +1,1 @@
-$(".owl-carousel").owlCarousel({loop:!0,nav:!1,dots:!0,items:1});
+$(".owl-carousel").owlCarousel({loop:!0,nav:!1,dots:!0,items:1}),$(".menu_icon").click(function(){$(".menu").fadeToggle(300)});
